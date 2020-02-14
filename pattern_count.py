@@ -17,7 +17,7 @@ def pattern_count(text,pattern):
 
     return count
 
-
-print(pattern_count('CGATATATCCATAG', 'ATA'))
+if __name__ == "__main__":
+    print(pattern_count('CGATATATCCATAG', 'ATA'))
 
 #output obtained 3 same as in example
